@@ -8,3 +8,33 @@
     border: 0;
     box-sizing: border-box;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 1rem;
+
+    > label,
+    > div {
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+
+        > label {
+            > input {
+                margin-right: 4px;
+            }
+        }
+
+        > span {
+            min-width: 200px;
+        }
+
+        input {
+            border: 1px solid #000;
+            border-radius: 4px;
+            padding: 4px 8px;
+        }
+    }
+}
