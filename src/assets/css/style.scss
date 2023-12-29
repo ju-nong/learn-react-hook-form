@@ -9,11 +9,18 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 1rem;
+}
+
 form {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
     padding: 1rem;
+    margin-bottom: 2rem;
 
     > label,
     > div {
@@ -36,5 +43,12 @@ form {
             border-radius: 4px;
             padding: 4px 8px;
         }
+    }
+
+    button {
+        border-radius: 4px;
+        background-color: skyblue;
+        color: #fff;
+        padding: 8px;
     }
 }
