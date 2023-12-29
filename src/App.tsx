@@ -1,4 +1,4 @@
-import { Basic, NicknameConfirm } from "./components";
+import { Basic, NicknameConfirm, PasswordConfirm } from "./components";
 
 function App() {
     return (
@@ -8,6 +8,9 @@ function App() {
 
             <h2>닉네임 중복 확인 실습</h2>
             <NicknameConfirm />
+
+            <h2>비밀번호 확인 실습</h2>
+            <PasswordConfirm />
         </>
     );
 }
