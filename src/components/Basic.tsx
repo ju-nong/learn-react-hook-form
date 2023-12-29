@@ -95,10 +95,8 @@ function Basic() {
 
             <label>
                 <span>select</span>
-                <select {...register("select")}>
-                    <option selected disabled>
-                        혈액형
-                    </option>
+                <select defaultValue="혈액형" {...register("select")}>
+                    <option disabled>혈액형</option>
                     <option>A</option>
                     <option>B</option>
                     <option>O</option>
